@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962886124402",
+    "project_id": "lojaonline-799e5",
+    "storage_bucket": "lojaonline-799e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962886124402:android:e5f76db6036e8f94b5d3eb",
+        "android_client_info": {
+          "package_name": "br.com.antunes.loja_online.loja_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962886124402-igurp4pkap1qf1jquc8qfhfr6bh8ajgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNteOv_FmN_t0_mUIpn060U8oFzb9N3Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962886124402-igurp4pkap1qf1jquc8qfhfr6bh8ajgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

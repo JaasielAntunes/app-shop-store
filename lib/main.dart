@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:loja_online/screens/home_screen.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({ Key? key }) : super(key: key);
+void main() => runApp(new MyApp());
 
-  @override
-  _HomePageState createState() => _HomePageState();
-}
+class MyApp extends StatelessWidget {
 
-class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        
+    return MaterialApp(
+      title: 'Inicio Do Projeto',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        primaryColor: Color.fromARGB(255, 4, 125, 141),
+      ),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
     );
   }
 }
