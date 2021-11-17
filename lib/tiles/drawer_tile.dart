@@ -25,11 +25,14 @@ class DrawerTile extends StatelessWidget {
               Icon(
                 icon,
                 size: 30,
-                color: controller.page.round() == page ? 
-                Theme.of(context).primaryColor : Colors.grey[700], 
+                color: controller.page.round() == page
+                    ? Theme.of(context).primaryColor
+                    : Colors.grey[700],
               ),
               // espaçamento entre o icone e o texto
-              SizedBox(width: 30,),
+              SizedBox(
+                width: 30,
+              ),
               Text(
                 text,
                 style: TextStyle(
@@ -37,8 +40,9 @@ class DrawerTile extends StatelessWidget {
                   // se a página atual do controlador for igual a do item aciona a primaryColor
                   // caso contrario coloca cinza.
                   // round() para arredondar o valor double para int.
-                  color: controller.page.round() == page ? 
-                Theme.of(context).primaryColor : Colors.grey[700],
+                  color: controller.page.round() == page
+                      ? Theme.of(context).primaryColor
+                      : Colors.grey[700],
                 ),
               ),
             ],
