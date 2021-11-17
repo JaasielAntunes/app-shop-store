@@ -1,6 +1,7 @@
-# loja_online
+# App Shop Store
 
 A new Flutter project.
+Made by Jaasiel Antunes.
 
 ## Getting Started
 
