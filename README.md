@@ -5,13 +5,17 @@ Made by Jaasiel Antunes.
 
 - Algumas telas do App:
 
-<div>
-    <img width="320" height="750" src="images/login.jpg">
-    <img width="320" height="750" src="images/cadastro.jpg">
-</div>
+<br>
 
 <div>
-    <img width="320" height="750" src="images/home.jpg">
-    <img width="320" height="750" src="images/produtos.jpg">
+    <img width="200" height="400" src="images/login.jpg">
+    <img width="200" height="400" src="images/cadastro.jpg">
+</div>
+
+<br>
+
+<div>
+    <img width="200" height="400" src="images/home.jpg">
+    <img width="200" height="400" src="images/produtos.jpg">
 </div>
 
