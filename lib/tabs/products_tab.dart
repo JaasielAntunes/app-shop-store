@@ -8,17 +8,17 @@ class ProductsTab extends StatelessWidget {
     // capturando dados a partir do Firebase
     return FutureBuilder<QuerySnapshot>(
         // coleção products
-        future: Firestore.instance.collection('products').getDocuments(),
+        future: FirebaseFirestore.instance.collection('products').get(),
         builder: (context, snapshot) {
           if (!snapshot.hasData) {
             return Center(child: CircularProgressIndicator());
           } else {
             // barrinha de divisão entre cada categoria
             var dividedTiles = ListTile.divideTiles(
-                    tiles: snapshot.data.documents.map((doc) {
+                    tiles: snapshot.data.docs.map((doc) {
                       return CategoryTile(doc);
                     }).toList(),
-                    color: Colors.grey[500])
+                    color: Colors.cyan[700])
                 .toList(); // toList() transforma as tiles em uma lista
 
             return ListView(
