@@ -5,11 +5,11 @@ Made by Jaasiel Antunes.
 
 # Desafios do projeto:
 
-- Entender como o back end iria funcionar
-- Aprender a implementar a parte do Firebase como cadastro e login do usuário
-- Aprender a sintaxe do Firebase
-- Aprender a adicionar novos recursos ao App
-- Aprender a lidar e resolver erros inesperados
+- Entender como o back end iria funcionar;
+- Aprender a implementar a parte do Firebase como cadastro e login do usuário;
+- Aprender a sintaxe do Firebase;
+- Aprender a adicionar novos recursos ao App;
+- Aprender a lidar e resolver erros inesperados.
 
 <br>
 
