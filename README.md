@@ -13,7 +13,7 @@ Made by Jaasiel Antunes.
 
 <br>
 
-# Algumas telas do App
+# Alguns prints das telas do App
 
 <br>
 
