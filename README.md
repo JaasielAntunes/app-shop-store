@@ -1,8 +1,6 @@
 # App Shop Store
 
-<br>
-
-Autor: Jaasiel Antunes de Araujo.
+# Autor: Jaasiel Antunes de Araujo.
 
 # Sobre o projeto
 O Shop Store é uma aplicação mobile construída com base em um curso de Flutter da plataforma Udemy onde eu utilizei como projeto para uma disciplina da faculdade onde estou cursando ciência da computação, durante o desenvolvimento da aplicação surgiram vários problemas
